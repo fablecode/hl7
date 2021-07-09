@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fluentassertions" Version="5.10.3" />
+    <PackageReference Include="microsoft.codecoverage" Version="16.10.0" />
+    <PackageReference Include="microsoft.net.test.sdk" Version="16.10.0" />
+    <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="nunit3testadapter" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\NuGet\hl7\hl7.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataTypeTests\" />
+  </ItemGroup>
+
+</Project>
